@@ -1,6 +1,39 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<meta charset="utf-8">
+	<title>Hakeem Wilson - Engineer</title>
+</head>
 <body>
+    <div id="mainNavbar" class="navbar-default navbar-fixed-top"> <!--not REALLY a bootstrap navbar... just borrowing the fixed-top behavior--->
+		<div id="andrewImageDiv" class="container-fluid">
+			<!-- img-rounded and col-xs-2 don't play nice when both classes of img, so put the img in a div -->
+			<div id="andrewImageDiv2" class="col-xs-offset-5 col-xs-2">
+				<img id="andrewImage" src="img/andrew.jpg" class="img-rounded" alt="Andrew Smith - Programmer">
+			</div>
+		</div>
+
+		<!-- TABS -->
+		<div id="tabBarContainer" class="container-fluid text-center">
+			<ul id="tabBar" class="nav nav-tabs">
+				<li class="col-md-3 active">
+					<a data-toggle="tab" class="skinnyPanel" href="#aboutMe" aria-expanded="true">About Me</a>
+				</li>
+
+				<li class="col-md-3">
+					<a data-toggle="tab" class="widePanel" href="#sampleWorks" aria-expanded="false">Personal Projects</a>
+				</li>
+
+				<li class="col-md-3">
+					<a data-toggle="tab" class="widePanel" href="#resume" aria-expanded="false">Resume</a>
+				</li>
+
+				<li class="col-md-3">
+					<a data-toggle="tab" class="skinnyPanel" href="#contactMe">Contact Me</a>
+				</li>
+			</ul>
+		</div>
+	</div>
 <h1>Hello Danielle</h1>
 <p>I'm feeling saucy</p>
 </body>
