@@ -1,0 +1,120 @@
+#andrewImageDiv
+{
+    padding-top: 1em;
+}
+
+.project-img
+{
+	width: 60%;
+	display: block;
+	margin: 0 auto;
+
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.project-vid
+{
+	width: 720px;
+	height: 480px;
+	float: none;
+	clear: both;
+	display: block;
+	margin: 0 auto;
+}
+
+#tabBarContainer
+{
+    padding-top: 1em;
+}
+
+#tabBar
+{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#tabContentContainer
+{
+    padding-top: 1em;
+}
+
+#downloadPdfText
+{
+    margin-top: 1em;
+}
+
+#embeddedResume
+{
+    height: 800px;
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+.projectTitle
+{
+    text-decoration: underline;
+}
+
+li
+{
+    list-style: disc;
+}
+
+.card
+{
+	padding-left: 3em;
+	padding-right: 3em;
+	background: #EEEEEE;
+	border-radius: 10px;
+}
+
+.collapse.in
+{
+	padding-bottom: 1em;
+}
+
+hr
+{
+	border-color: #CCCCCC;
+}
+
+.monospaceFont
+{
+    font-family: courier, monospace;
+}
+
+.backToTop
+{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+span
+{
+    white-space: nowrap;
+}
+
+h4
+{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+p
+{
+    font-size: 110%;
+    padding-top: 1em;
+    line-height: 1.5em;
+}
+
+a:hover
+{
+    cursor: pointer;
+}
+
+body
+{
+    font-family: 'Titillium Web', arial, sans-serif;
+    padding-bottom: 3em;
+}
